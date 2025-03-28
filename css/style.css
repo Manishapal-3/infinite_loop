@@ -1,0 +1,497 @@
+*{
+       margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    body{
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    .container{
+        width: 90%;
+        margin: 0 auto;
+    }
+    header{
+        position: sticky;
+        top: 0;
+        overflow: hidden;
+        z-index: 50;
+        background-color: white;
+        color: rgb(56, 40, 126);
+        /* border-bottom: none; */
+    }
+    .Logo{
+        font-size: 20px;
+    }
+    .Logo:hover{
+        transition: .5s;
+        color: blue;
+
+    }
+    nav{
+        padding: 20px;
+    }
+    .navbar{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+         /* background-color: rgb(230, 214, 214); */
+        /* color: aliceblue; */
+        font-size: 25px;
+        /* border-bottom: none; */
+    }
+    .nav_itms a{
+        text-decoration: none;
+        /* margin: 0 20px; */
+        padding: 8px 10px;
+        color: #3c56b3;
+
+    }
+    .nav_itms ul li a:hover{
+        transition: .5s;
+        transform-origin: center;
+        background-color: rgb(26, 26, 238);
+        color: white;
+        /* padding: 10px 12px; */
+    }
+    .nav_itms ul{
+        list-style-type: none;
+    }
+    .nav_itms ul li {
+        display: inline;
+        
+    }
+    .first_sec{
+        background-image: url(../images/infinite-loop-01.jpg);
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+        /* height: 100vh; */
+        padding: 50px 0;
+    }
+    .first_sec h1{
+        font-size: 60px;
+        text-align: center;
+        color: white;
+        padding-top: 50px;
+    }
+    .first_sec p{
+        font-size: 25px;
+        text-align: center;
+        color: rgb(247, 244, 244);
+        margin-top: 30px;
+        line-height: 30px;
+    
+    }
+    .arrow{
+        font-size: 50px;
+        text-align: center;
+        margin-top: 100px;
+    
+        color: white;
+    margin-left: auto;
+    margin-right: auto;
+        width: 150px;
+        background-color: rgb(33, 33, 92);
+        padding: 8px;
+
+
+    }
+    .arrow:hover{
+        transition: .5s;
+        background-color: rgb(26, 26, 238);
+        
+    }
+.second_sec{
+    padding: 40px;
+}
+.second_sec h2{
+    font-size: 50px;
+    color: #3c56b3;
+    padding: 20px;
+
+}
+.this{
+    font-size: 20px;
+    color: rgb(90, 77, 77);
+    padding: 22px;
+    line-height: 30px;
+    font-family: "Raleway", sans-serif;
+}
+.blue{
+    color: #3c56b3 ;
+}
+.blue:hover{
+    transition: .5s;
+    color: rgb(250, 163, 3);
+}
+    
+.main_sec{
+    display: grid;
+    grid-template-columns: auto auto;
+    margin-top: 50px;
+    grid-gap: 20px;
+    
+}
+.icon{
+    font-size: 50px;
+    color: #3c56b3;
+}
+.market{
+    font-size: 30px;
+    color: #3c56b3;
+    margin-bottom: 20px;
+}
+.analysis{
+    display: flex;
+    gap: 20px;
+}
+.present{
+    font-size: 20px;
+    color: rgb(124, 118, 118);
+    margin-bottom: 35px;
+    line-height: 35px;
+}
+.first_button{
+    display: flex;
+    justify-content: space-between;
+}
+.blue_button button{
+    font-size: 25px;
+    background-color: #3c56b3;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    margin-bottom: 50px;
+
+}
+.third_sec{
+    background-image: url(../images/infinite-loop-02.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.testimonials h3{
+    font-size: 38px;
+    text-align: center;
+    color: white;
+    padding-top: 60px;
+    margin-top: 40px;
+
+}
+.testimonials p{
+    font-size: 15px;
+    color: rgb(238, 226, 226);
+    text-align: center;
+    margin-top: 30px;
+    line-height: 25px;
+}
+.third_main{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin-top: 60px;
+
+}
+.testimonials_img{
+    text-align: center;
+}
+.testimonials_img p{
+    font-size: 18px;
+    color: white;
+    text-align: center;
+    line-height: 40px;
+}
+.testimonials_img img{
+    /* display: flex; */
+    border-radius: 70px;
+}
+.designer p{
+    font-size: 25px;
+    text-align: center;
+    margin-top: 30px;
+    font-style: italic;
+    margin-bottom: 200px;
+
+}
+.fifth_sec{
+    padding: 40px;
+}
+.gallary{
+    font-size: 45px;
+    text-align: center;
+    color: #3c56b3;
+    margin-top: 40px;
+}
+.present p{
+    font-size: 16px;
+    text-align: center;
+    margin-top: 30px;
+
+}
+.fifth_main{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    margin: 30px;
+    width: 100%;
+    height: 100%;
+    
+}
+.images:hover{
+    transition: .5s;
+    color: rgb(122, 109, 134);
+}
+.last_div{
+    background-image: url(../images/infinite-loop-03.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    /* height: 150vh; */
+    /* width: 100%; */
+    background-attachment: fixed;
+}
+.contact{
+    font-size: 40px;
+    text-align: center;
+    color: white;
+    margin-top: 30px;
+    padding-top: 85px;
+}
+.proin p{
+    font-size: 18px;
+    text-align: center;
+    color: rgb(243, 227, 227);
+    margin: 30px;
+    line-height: 35px;
+}
+.mail_sec{
+    /* display: grid;
+    margin: 100px 100px */
+}
+.name_div{
+    font-size: 20px;
+    background-color: transparent;
+    color: white;
+    border-radius: 5px;
+    border-color: white;
+    /* border: none; */
+    padding-left: 20px;
+}
+
+.name input{
+    padding: 10px 5px;
+    width: 70%;
+}
+.mail_div{
+    font-size: 20px;
+    background-color: transparent;
+    color: white;
+    border-radius: 5px;
+    border-color: white;
+    padding-left: 20px;
+    margin-top: 20px;
+}
+.Message_div{
+    font-size: 20px;
+    background-color: transparent;
+    color: white;
+    border-radius: 5px;
+    border-color: white;
+    padding-left: 20px;
+    margin-top: 20px;
+}
+input::placeholder{
+    text-align: left;
+    color: white;
+}
+.last_button button{
+    padding: 10px 50px;
+    background-color: #3c56b3;
+    color: white;
+    border-radius: 3px;
+    border: none;
+    font-size: 20px;
+    text-align: center;
+
+    
+}.ft_block{
+    display: grid;
+    grid-template-columns: 50% 50%;
+    gap: 20px;
+    width: 90%;
+    margin: 0 auto;
+}
+.name textarea{
+    width: 70%;
+    background-color: transparent;
+    margin-top: 10px;
+    border: 2px solid white;
+    border-radius: 3px;
+    font-size: 20px;
+    color: white;
+    padding: 5px;
+}
+.last_button button:hover{
+    transition: .5s;
+    background-color: #5975da;
+}
+/* .manisha{
+    display: grid;
+
+} */
+.chat{
+    font-size: 20px;
+    color: white;
+    margin: 50px 0;
+}
+.chat{
+    font-size: 20px;
+}
+
+.copyright{
+    padding-top: 20px;
+    text-align: center;
+    color: white;
+    
+}
+.mobile_nav{
+    padding: 10px 0;
+    display: none;
+}
+.mobile_block{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.mobile_menu .responsiv{
+    list-style-type: none;
+
+}
+.mobile_menu .responsiv li{
+    font-size: 12px;
+    padding: 5px;
+    
+}
+.mobile_menu .responsiv li a{
+    text-decoration: none;
+    color: black;
+}
+.hameburger{
+    position: relative;
+    transition: 1s;
+    font-size: 20px;
+}
+.responsiv{
+    display: none;
+    position: absolute;
+    background-color: white;
+    z-index: 999;
+    padding: 10px;
+    right: -50px;
+}
+.hameburger:hover .responsiv{
+    display: block;
+
+}
+
+
+
+
+
+@media screen and (max-width: 1000px){
+    nav{
+        display: none;
+        
+    }
+.mobile_nav{
+    display: block;
+}
+    .fifth_main{
+        grid-template-columns: auto auto auto;
+    }
+    .arrow{
+        margin-top: 50px;
+    }
+    .fifth_main{
+        grid-template-columns: auto auto;
+    }
+    .third_main{
+        grid-template-columns: auto auto;
+        
+    }
+    .mail_sec{
+        grid-template-columns: auto auto;
+    }
+        
+}
+
+
+@media screen and (max-width: 770px){
+
+    .ft_block{
+        grid-template-columns: auto;
+    }
+    .chat{
+        font-size: 16px;
+    }
+    testimonials_img p{
+        line-height: 2px;
+    }
+}
+
+@media screen and (max-width: 450px){
+    .fifth_main{
+        display: block;
+    
+    }
+    .market{
+        font-size: 20px;
+        margin-bottom: 20px;
+    }
+    .blue_button button{
+        /* font-size: 15px; */
+    }
+    .main_sec{
+        grid-template-columns: auto;
+    }
+    .third_main{
+        grid-template-columns: auto;
+    }
+    .arrow{
+        margin-top: 30px;
+        font-size: 17px;
+        width: 70px;
+    }
+    .first_sec h1{
+        font-size: 35px;
+        padding-top: 25px;
+    }
+    .first_sec p{
+        font-size: 19px;
+        margin-top: 20px;
+    }
+    .arrow{
+        margin-top: 25px;
+    }
+    .second_sec h2{
+        font-size: 40px;
+    }
+    .this{
+        font-size: 18px;
+    }
+    .copyright{
+        font-size: 16px;
+        margin-top: 8px;
+    }
+
+    
+    
+}
+@media screen and (max-width: 450px){
+    .second_sec h2{
+        font-size: 35px;
+        padding: 0;
+    }
+    .last_button button{
+        margin-top: 15px;
+    }
+}
+.images img{
+width: 100% !important;
+}
+
